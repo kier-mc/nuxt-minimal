@@ -1,0 +1,10 @@
+@use "sass:map";
+
+$palette-base: (
+  "dark":  hsl(0, 0%, 10%),
+  "light": hsl(0, 0%, 90%),
+);
+
+@function base($key) {
+  @return map.get($palette-base, $key);
+}
