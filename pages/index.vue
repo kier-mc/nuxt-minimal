@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
-<template>Hello World</template>
+<template>
+  <div>Hello World</div>
+</template>
 
 <style scoped lang="scss"></style>
