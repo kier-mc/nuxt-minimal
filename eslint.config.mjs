@@ -1,3 +1,14 @@
-import { createConfigForNuxt } from "@nuxt/eslint-config/flat";
+import antfu from "@antfu/eslint-config";
 
-export default createConfigForNuxt({});
+export default antfu({
+  formatters: {
+    css: true,
+  },
+  rules: {
+    "no-console": "warn",
+  },
+  stylistic: {
+    quotes: "double",
+    semi: true,
+  },
+});
